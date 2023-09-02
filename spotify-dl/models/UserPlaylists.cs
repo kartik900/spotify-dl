@@ -1,12 +1,12 @@
 ﻿namespace spotify_dl.models
 {
-    internal class UserPlaylistData
+    internal class UserPlaylists
     {
         public string? Href { get; set; }
-        public List<Item>? Items { get; set; }
+        public List<Playlist>? Items { get; set; }
         public int Total { get; set; }
     }
-    internal class Item
+    internal class Playlist
     {
         public string? Id { get; set; }
         public string? Name { get; set; }
